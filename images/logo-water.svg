@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Water and nature logo">
+  <path d="M50 14C39 29 25 42 25 57a25 25 0 0 0 50 0c0-15-14-28-25-43Z" fill="#318fcb"/>
+  <path d="M54 54c9-13 21-15 28-14-3 11-12 20-28 20Z" fill="#61a84a"/>
+  <path d="M54 61c-7-6-14-9-22-9" fill="none" stroke="#61a84a" stroke-width="3"/>
+  <text x="50" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#2678a9">WATER</text>
+</svg>

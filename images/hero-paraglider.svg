@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 600" preserveAspectRatio="xMidYMid slice" role="img" aria-label="White paraglider canopy against a blue sky">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#0A47A0"/>
+      <stop offset="0.55" stop-color="#2E86D6"/>
+      <stop offset="1" stop-color="#9CCBEF"/>
+    </linearGradient>
+    <radialGradient id="glare" cx="1800" cy="20" r="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="0.25" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="canopyFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#F1F6FB"/>
+      <stop offset="1" stop-color="#CFDDEC"/>
+    </linearGradient>
+    <linearGradient id="edgeShade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C9CC0" stop-opacity="0.45"/>
+      <stop offset="0.25" stop-color="#7C9CC0" stop-opacity="0"/>
+      <stop offset="0.75" stop-color="#7C9CC0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7C9CC0" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5CD0EA"/>
+      <stop offset="1" stop-color="#1E90C8"/>
+    </linearGradient>
+    <path id="canopyShape" d="M200 440 C 380 230, 700 130, 980 125 C 1260 120, 1560 230, 1720 420 C 1500 400, 1250 380, 980 385 C 700 390, 430 410, 200 440 Z"/>
+    <clipPath id="canopyClip">
+      <use href="#canopyShape"/>
+    </clipPath>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1920" height="600" fill="url(#sky)"/>
+  <!-- Sun glare in the top-right corner -->
+  <rect width="1920" height="600" fill="url(#glare)"/>
+  <!-- Faint diagonal light streak -->
+  <polygon points="1780,0 1920,0 1920,120 1180,600 1080,600" fill="#FFFFFF" opacity="0.07"/>
+  <circle cx="1560" cy="150" r="26" fill="#FFFFFF" opacity="0.10"/>
+  <circle cx="1400" cy="255" r="14" fill="#FFFFFF" opacity="0.10"/>
+
+  <!-- Suspension lines (drawn first so the canopy covers their upper ends) -->
+  <g stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.5" fill="none">
+    <line x1="320" y1="370" x2="960" y2="720"/>
+    <line x1="450" y1="370" x2="960" y2="720"/>
+    <line x1="580" y1="370" x2="960" y2="720"/>
+    <line x1="710" y1="370" x2="960" y2="720"/>
+    <line x1="840" y1="370" x2="960" y2="720"/>
+    <line x1="960" y1="370" x2="960" y2="720"/>
+    <line x1="1090" y1="370" x2="960" y2="720"/>
+    <line x1="1220" y1="370" x2="960" y2="720"/>
+    <line x1="1350" y1="370" x2="960" y2="720"/>
+    <line x1="1480" y1="370" x2="960" y2="720"/>
+    <line x1="1610" y1="370" x2="960" y2="720"/>
+  </g>
+
+  <!-- Canopy base fill -->
+  <use href="#canopyShape" fill="url(#canopyFill)"/>
+
+  <!-- Everything below is clipped to the canopy shape -->
+  <g clip-path="url(#canopyClip)">
+    <!-- Darker edges at both wing tips -->
+    <rect x="200" y="100" width="1520" height="360" fill="url(#edgeShade)"/>
+
+    <!-- Alternating cell shading -->
+    <g stroke="#A9C1D9" stroke-opacity="0.16" stroke-width="55">
+      <line x1="960" y1="1400" x2="-200" y2="100"/>
+      <line x1="960" y1="1400" x2="90" y2="100"/>
+      <line x1="960" y1="1400" x2="380" y2="100"/>
+      <line x1="960" y1="1400" x2="670" y2="100"/>
+      <line x1="960" y1="1400" x2="960" y2="100"/>
+      <line x1="960" y1="1400" x2="1250" y2="100"/>
+      <line x1="960" y1="1400" x2="1540" y2="100"/>
+      <line x1="960" y1="1400" x2="1830" y2="100"/>
+      <line x1="960" y1="1400" x2="2120" y2="100"/>
+    </g>
+
+    <!-- Ribs (cell seams) converging toward the pilot below -->
+    <g stroke="#B7CADD" stroke-opacity="0.85" stroke-width="2">
+      <line x1="960" y1="1400" x2="-200" y2="100"/>
+      <line x1="960" y1="1400" x2="-55" y2="100"/>
+      <line x1="960" y1="1400" x2="90" y2="100"/>
+      <line x1="960" y1="1400" x2="235" y2="100"/>
+      <line x1="960" y1="1400" x2="380" y2="100"/>
+      <line x1="960" y1="1400" x2="525" y2="100"/>
+      <line x1="960" y1="1400" x2="670" y2="100"/>
+      <line x1="960" y1="1400" x2="815" y2="100"/>
+      <line x1="960" y1="1400" x2="960" y2="100"/>
+      <line x1="960" y1="1400" x2="1105" y2="100"/>
+      <line x1="960" y1="1400" x2="1250" y2="100"/>
+      <line x1="960" y1="1400" x2="1395" y2="100"/>
+      <line x1="960" y1="1400" x2="1540" y2="100"/>
+      <line x1="960" y1="1400" x2="1685" y2="100"/>
+      <line x1="960" y1="1400" x2="1830" y2="100"/>
+      <line x1="960" y1="1400" x2="1975" y2="100"/>
+      <line x1="960" y1="1400" x2="2120" y2="100"/>
+    </g>
+
+    <!-- Soft shadow along the trailing (bottom) edge -->
+    <path d="M200 440 C 430 410, 700 390, 980 385 C 1250 380, 1500 400, 1720 420" fill="none" stroke="#8FA9C6" stroke-opacity="0.35" stroke-width="30"/>
+
+    <!-- Cyan / teal accent stripes on the trailing edge, left and right -->
+    <path d="M200 440 C 330 424, 480 406, 640 396" fill="none" stroke="url(#teal)" stroke-width="46"/>
+    <path d="M1320 388 C 1440 392, 1580 402, 1720 420" fill="none" stroke="url(#teal)" stroke-width="46"/>
+  </g>
+
+  <!-- Bright leading edge and thin outline -->
+  <path d="M200 440 C 380 230, 700 130, 980 125 C 1260 120, 1560 230, 1720 420" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.9"/>
+  <use href="#canopyShape" fill="none" stroke="#E3ECF5" stroke-width="2"/>
+</svg>

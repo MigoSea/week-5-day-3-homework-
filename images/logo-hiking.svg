@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Hiking trails logo">
+  <path d="M10 76 35 36l12 18 10-14 33 36H10Z" fill="#6b4a32"/>
+  <path d="m35 36 12 18-7 11-10-10Z" fill="#222"/>
+  <path d="M47 54 57 40l33 36H65Z" fill="#9a6a3d"/>
+  <path d="M48 77c8-15 18-24 29-34" fill="none" stroke="#111" stroke-width="4"/>
+  <text x="50" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#222">TRAIL</text>
+</svg>
